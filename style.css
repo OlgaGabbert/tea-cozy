@@ -9,12 +9,14 @@ body {
 
 .header {
     border-bottom: 1px solid seashell;
-    display: flex;
     height: 69px;
+    background-color: black;
 }
 
 .header-content {
-    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 a {
@@ -24,7 +26,21 @@ a {
 
 h1 {
     display: inline;
-    height: 50px;
+    font-size: 50px;
     margin-left: 10px;
     text-align: left;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  .sticky + .container {
+    padding-top: 102px;
+  }
+
+  .container {
+      padding: 16px;
+  }
