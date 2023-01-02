@@ -5,6 +5,7 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    
 }
 
 .header {
@@ -47,10 +48,6 @@ a {
       padding: 16px;
   } */
 
-  h2, h4 {
-      font-weight: normal!important;
-  }
-
   #mission-text {
       background-color: black;
       position: absolute;
@@ -68,6 +65,7 @@ a {
       margin: auto;
       filter: brightness(50%);
       background:url('img-mission-background.jpg') no-repeat center top #FFF;
+      margin-bottom: 100px;
   }
 
 
@@ -79,3 +77,20 @@ a {
   .my-links {
     margin: 7px;
   }
+
+  #featured-tea {
+      width: 1000px;
+      margin: auto;
+      filter: brightness(50%);
+  }
+
+.teas img {
+    height: 200px;
+    width: 300px;
+}
+
+.teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
