@@ -55,7 +55,7 @@ a {
       margin: 0;
       width: 1200px;
       -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+      transform: translateY(-50%);
   }
 
   #mission {
@@ -65,7 +65,7 @@ a {
       margin: auto;
       filter: brightness(50%);
       background:url('img-mission-background.jpg') no-repeat center top #FFF;
-      margin-bottom: 100px;
+      margin-bottom: 80px;
   }
 
 
@@ -82,6 +82,7 @@ a {
       width: 1000px;
       margin: auto;
       filter: brightness(50%);
+      margin-bottom: 80px;
   }
 
 .teas img {
@@ -93,4 +94,62 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.teas h4 {
+    margin-top: 10px;
+}
+
+#special {
+    opacity: 1;
+    border: 1px solid red;
+}
+
+.location-container {
+    display: flex;
+    justify-content: center;
+}
+
+.locations-div-container {
+    background-color: black;
+    width: 300px; 
+    padding: 60px 5px;
+}
+
+.margin {
+    margin-right: 40px;
+}
+
+.location-div {
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    width: 1200px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.location-div h2 {
+    margin-bottom: 15px;
+}
+
+#locations {
+    height: 500px;
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    filter: brightness(50%);
+    background:url('img-locations-background.jpg') no-repeat center top #FFF;
+    margin-bottom: 80px;
+}
+
+.contact {
+    height: 200px;
+    filter: brightness(50%);
+}
+
+.tagline {
+    margin-left: 20px;
+    text-align: left;
+    filter: brightness(50%);
 }
